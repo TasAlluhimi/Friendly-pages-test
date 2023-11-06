@@ -6,15 +6,52 @@
     margin: 0;
 }
 
-.testing-page{
+/* .testing-page{
     background-color: rgba(13, 1, 73, 0.926);
-}
+} */
 
 .main-title{
     text-align: center;
-    color: rgb(159,139,255);
+    /* color: rgb(159,139,255); */
+    color: rgb(109,101,246);
     /* font-family: 'roca one'; */
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 869px) {
+    .main-title{
+        text-align: center;
+        /* color: rgb(159,139,255); */
+        color: rgb(109,101,246);
+        /* font-family: 'roca one'; */
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+
+    .main-img{
+        width: 60vw;
+        height: 30vh;
+        padding: 10px;
+    }
+
+    .test-content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .test-cards{
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .test-cards{
+        max-width: 540px; 
+        height: 200px;
+    }
+  }

@@ -28,7 +28,7 @@ rel="stylesheet"
 
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -57,20 +57,22 @@ rel="stylesheet"
           </div>
         </nav>
         <!-- Navbar -->
-      </header>
+      
 
       <!-- cards -->
-      <dvi class="container text-center p-5 d-flex justify-content-center flex-column align-items-center">
-        <h1 class="mt-5">Check if your website device is friendly</h1>
+      <div class="container text-center p-5 d-flex justify-content-center flex-column align-items-center" >
+        <h1 class="mt-5" style="color: rgb(109,101,246);">Check if your website device is friendly!</h1>
         <div class="form-outline text-center w-50 mt-3" style="border:2px solid rgb(159,139,255); color: rgb(159,139,255);;">
             <input type="text" id="typeText" class="form-control" oninput="onIP()"/>
-            <label class="form-label text-white" for="typeText">Enter any website link you want!</label>
+            <label class="form-label" for="typeText">Enter any website link you want!</label>
           </div>
-      </dvi>
-      <div class="container d-flex p-5">
+      </div>
+
+      <!-- <div style="background-color: rgb(109,101,246);"></div> -->
+      <div class="container d-flex p-5 test-content" style="background-color: rgb(109,101,246);">
 
         <div class="d-flex flex-column m-5">
-            <div class="card mb-3" style="max-width: 540px; height: 200px;">
+            <div class="card mb-3 test-cards">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
@@ -91,7 +93,7 @@ rel="stylesheet"
                   </div>
                 </div>
               </div>
-              <div class="card mb-3" style="max-width: 540px; height: 200px;">
+              <div class="card mb-3 test-cards">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
@@ -115,7 +117,7 @@ rel="stylesheet"
         </div>
 
         <div class="d-flex flex-column m-5">
-            <div class="card mb-3" style="max-width: 540px; height: 200px;">
+            <div class="card mb-3 test-cards">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
@@ -137,7 +139,7 @@ rel="stylesheet"
                 </div>
               </div>
 
-              <div class="card mb-3" style="max-width: 540px; height: 200px;">
+              <div class="card mb-3 test-cards">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
@@ -162,10 +164,19 @@ rel="stylesheet"
 
       </div>
       
-
+    </header>
 
 
 
     <script src="main.js"></script>
 </body>
+
+<footer class="text-center text-lg-start bg-light text-muted mt-5" style="background-color: rgb(109,101,246);">
+  <!-- Copyright -->
+  <div class="text-center text-white p-4" style="background-color:rgb(109,101,246);">
+    © 2023 Copyright:
+    <a class=" fw-bold text-white" href="">Tasneem Alluhimi</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 </html>
